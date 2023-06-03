@@ -5,12 +5,14 @@ import {
   Twitter,
   Car,
   Search,
+  Share,
   type Icon as LucideIcon,
 } from "lucide-react"
 
 export type Icon = LucideIcon
 
 export const Icons = {
+  share: Share,
   search: Search,
   car: Car,
   sun: SunMedium,
